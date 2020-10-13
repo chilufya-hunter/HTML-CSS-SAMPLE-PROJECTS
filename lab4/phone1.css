@@ -1,0 +1,114 @@
+div{
+    position: absolute;
+   
+}
+
+#back{
+    border: solid black 2px;
+    width: 250px;
+    height:450px;
+    border-radius:65px;
+    z-index:-2;
+    left: 50px;
+    top: 50px;
+    background-color:#202020;
+    
+    right:70%;
+}
+
+#front{
+    border: solid black 2px;
+    width: 240px;
+    height:440px;
+    border-radius:65px;
+    z-index:-2;
+    left: 55px;
+    top: 55px;
+    background-color: gainsboro;
+}
+ #display{
+    border: solid black 2px;
+    width: 200px;
+    height:300px;
+    z-index:0;
+    left: 75px;
+    top: 110px;
+    
+    background-color: black;
+}
+
+#line{
+    border: solid black 2px;
+    width: 240px;
+    z-index:0;
+    left:55px;
+    top: 430px;
+    background-color: black;
+}
+#call_button{
+    border: solid black 2px;
+    width: 100px;
+    height: 20px;
+    border-top-left-radius: 50px;
+    z-index:0;
+    left:75px;
+    top: 430px;
+    background-color: green;
+}
+
+#reject_button{
+    border: solid black 2px;
+    width: 100px;
+    height: 20px;
+    border-top-right-radius: 50px;
+    z-index:0;
+    left:175px;
+    top: 430px;
+    background-color:red;
+}
+
+#central_button{
+    border: solid black 2px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    z-index:1;
+    left:150px;
+    top: 430px;
+    background-color: black;
+}
+#centrer_button{
+    border: solid black 2px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    z-index:2;
+    left:155px;
+    top: 435px;
+    background-color: black;
+}
+
+#front_camera{
+    border: solid black 1px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    left:165px;
+    top: 80px;
+}
+
+
+h1{
+    text-align: center;
+}
+ 
+a{
+    position: absolute;
+    text-align: center;
+    top: 6%;
+    font-size: 230%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin-left: 45%;
+    margin-left: 45%;
+  }

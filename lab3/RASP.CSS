@@ -1,0 +1,26 @@
+body{
+    background-color:#ffffcc;
+    text-decoration-color: #330066;
+    background-image:url(fon.jpg);
+}
+
+h1{
+ text-align: center;
+font-size: 7;
+color:#008080;
+}
+
+p{
+text-align:center ;
+font-size: 6;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border-radius: 30%;
+    
+  }
+  

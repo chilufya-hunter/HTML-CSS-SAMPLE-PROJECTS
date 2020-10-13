@@ -1,0 +1,40 @@
+
+body{
+  align-content: center;
+  background-color: rgb(209, 191, 191);
+}
+.flag-japan {
+    width: 400px;
+    height: 350px;
+    overflow: hidden;
+    border: 1px solid #5f4949;
+    position: absolute;
+    margin-left: 500px;
+    top: 30%;
+
+  
+  }
+  
+
+
+
+.flag-japan {
+    background: radial-gradient(250px at 50% 50%, #BC002D 0, #BC002D 35%, transparent 35%, transparent 100%),600px white ; 
+ position: absolute; }
+  
+    h1{
+        text-align: center;
+        color: royalblue;
+    }
+
+    a{
+      position: absolute;
+      text-align: center;
+      top: 6%;
+      font-size: 230%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: black;
+      margin-left: 45%;
+    }
+
+    

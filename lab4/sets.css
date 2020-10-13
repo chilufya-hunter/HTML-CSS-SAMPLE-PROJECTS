@@ -1,0 +1,52 @@
+body{
+
+    background-color:#c3cfe2;
+}
+ h1{
+     text-align: center;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: larger;
+ }
+
+
+
+.circle{
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    opacity:1;
+  }
+  .circle-green{
+    border:solid black 6px;
+    background-color: cornflowerblue;
+    position:relative;
+    top:8%;
+    
+  }
+  .circle-red{
+    border:solid black 6px;
+    right:-70%;  
+    position:absolute;
+    top:6%;
+  background-color: darkgoldenrod;
+  opacity:0.5;
+  }
+
+  .circle-blue{
+    border:solid black 6px; ;
+    left:-45%;  
+    position: relative;
+    top:60%;
+    opacity:0.8;
+    background-color: darkred;
+  }
+
+  a{
+    position: absolute;
+    text-align: center;
+    top: 6%;
+    font-size: 230%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin-left: 45%;
+  }

@@ -1,0 +1,67 @@
+
+
+#traffic-light {
+  position: absolute;
+  display:block;
+  left: 50%;
+  top: 50%; 
+  margin-left: -60px;
+  margin-top: -160px;
+  background-color:aqua;
+  width:120px;
+  height:320px;
+  border-radius:30px;
+}
+
+input {
+  appearance: none;
+  position: relative;
+  left: 50%;
+  width:80px;
+  height:80px;
+  margin-top: 20px;
+  margin-left:-40px;
+  background-color:red;
+  border-radius: 100%;
+  display: block;
+}
+   
+#color1{
+    color: red;
+}
+h1{
+    text-align: center;
+}
+
+.yellow{
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  top: 44%;
+  margin-left:635px;
+  background-color: yellow;
+  z-index: 1;
+}
+
+.green{
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  top: 59.38%;
+  margin-left:635px;
+  background-color: green;
+  z-index: 1;
+}
+
+a{
+  position: absolute;
+  text-align: center;
+  top: 6%;
+  font-size: 230%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  margin-left: 45%;
+  
+}

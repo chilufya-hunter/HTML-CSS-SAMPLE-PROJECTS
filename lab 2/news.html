@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>НОВОСТИ</h1>
+<a href="#a">08 января 2020</a><br>
+<a href="#b">15 февраля 2020</a><br>
+<a href="#c">20 февраля 2020</a><br>
+<a href="#d">08 марта 2020</a><br>
+<a href="#e">04 апреля 2020</a><br>
+<a href="#f">25 мая 2020</a><br>
+<a href="#g">01 июня 2020</a><br>
+<a href="#h">07 июля 2020</a><br>
+
+<div class="a">
+<h2 id="a">08 января  2020</h2>
+<p>на прошлой неделе в четверг наша группа приняла участие в 100-й казанской выставке expro.</p>
+</div>
+
+<div class="b">
+    <h2 id="b">15 февраля 2020</h2>
+<p> студенты из 4372-21 могут быть направлены на дистанционное обучение продолжающейся пандемии..</p>
+</div>
+
+<div class="c">
+    <h2 id="c">20 февраля 2020</h2>
+<p>проведенный сегодня групповой опрос показал, что большинство студентов выразили смешанные чувства<br> 
+    по поводу сдачи онлайн-экзаменов.</p>
+</div>
+<div class="b">
+    <h2 id="d">08 марта 2020</h2>
+    <p>это первый раз, когда группа проводит празднование 08 марта онлайн. несмотря на расстояние между ними,<br> 
+        мальчики в группе подготовили очень красивую песню для девочек в группе</p>
+    </div>
+    
+    <div class="e">
+        <h2 id="e">04 апреля 2020</h2>
+    <p>сегодня студенты примут участие в международном фестивале культуры для студентов вузов который в этом <br>
+        году будет проходить в режиме онлайн</p>
+    </div>
+    <div class="f">
+        <h2 id="f">25 мая 2020</h2>
+        <p>группа готовится к защите курсовой работы, которая, вероятно, начнется завтра</p>
+        </div>
+        
+        <div class="g">
+            <h2 id="g">01 июня 2020</h2>
+        <p>расписание экзаменов будет опубликовано сегодня</p>
+        </div>
+        <div class="h">
+            <h2 id="h">07 июля 2020</h2>
+            <p>таков был итог 3-го года обучения. это была настоящая поездка.<br>
+                эпидемия сильно ударила по студентам, но они смогли посещать онлайн-уроки <br>
+                и успешно сдавать экзамены. всем удачи. приятного отдыха и увидимся через два месяца</p>
+            </div>
+            <hr>
+<p><a href="index.html">ГЛАВНАЯ СТРАНИЦА</a><br>
+    <a href="timetable.html">РАСПИСАНИЕ</a><br>
+    <a href="photoalbum.html">ФОТОАЛЬОМ</a><br>
+    </p>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">верхний</button>
+    <strong></strong>.</div>  
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>
